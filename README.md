@@ -39,7 +39,7 @@ activator
 # Let's build restful end-point #
 * Clone git repository using command window:
 ```
-https://github.com/vkhazin/play-framework-war.git
+git clone https://github.com/vkhazin/play-framework-war.git
 ```
 * Using activator browser ui 'Open existing app' in the right top corner 
 locate the folder where you have cloned the git repository into and 'choose' it, 
@@ -98,7 +98,7 @@ and
 ```
 </tomcat-users>
 ```
-tags:
+tags, e.g.:
 ```
 <tomcat-users xmlns="http://tomcat.apache.org/xml"
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
