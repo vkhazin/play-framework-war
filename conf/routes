@@ -1,0 +1,9 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+#Echo
+GET     /                               controllers.Application.echo
+GET     /echo                           controllers.Application.echo
+GET     /v1                             controllers.Application.echo
+GET     /v1/echo                        controllers.Application.echo
