@@ -9,17 +9,19 @@
 * Connect to the service deployed to Tomcat.
 
 # Acknowledgements #
-All credits go to contributors of https://github.com/play2war/play2-war-plugin and personally to Yann Simon for pointing out my mistake.
+All credits go to contributors of https://github.com/play2war/play2-war-plugin and personally to 
+Yann Simon for pointing out my [mistake](https://github.com/play2war/play2-war-plugin/issues/298).
  
 # What you gonna need before we start #
 (These steps are for Mac OS)
 
-* Install Oracle JDK 8 - not OpenJDK! Latter did not work for me, but I am not too bright, sigh...
-* Install Brew to streamline installation of other components from command window:
+* Install [Oracle JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) - not OpenJDK! 
+* Latter did not work for me, but I am not too bright, sigh...
+* Install [Brew](http://brew.sh/) to streamline installation of other components from command window:
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-* Install Play Framework from terminal window using brew:  
+* Install [Play Framework](https://www.playframework.com/) from terminal window using brew:  
 ```
 brew install typesafe-activator
 ```
